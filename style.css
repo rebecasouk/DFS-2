@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    overflow: hidden;
+  }
+  .containter{
+    position: relative;
+  }
+      
+  .circle{
+    position: absolute;
+     width: 300px;
+     height: 300px;
+     border-radius: 50%; 
+    background: red;
+    top: -100px;
+    right: -5%;
+    
+  }
+  
+  .text {
+    position: absolute;
+    column-count: 2;
+    text-indent: 50px;
+    line-height: 2em;
+    widows: 3;
+  }
